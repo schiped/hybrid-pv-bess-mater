@@ -1,0 +1,8 @@
+risk,likelihood,impact,mitigation
+Transformer and HV equipment lead time,High,High,Order at financial close; reserve slot with OEM; float on critical path
+"BESS import: customs, FX and capital controls",Medium,High,Use RIGI import regime; DDP terms; FX clause in EPC
+Referencial A curtailment above 8% before line works,Medium,Medium,Size BESS on curtailed energy; DC coupling; monitor CAMMESA quarterly priority reports
+Tracker piling refusal on alluvial soils,Medium,Medium,Pull-out test campaign before design freeze; pre-drilling allowance
+Grid compliance tests (PT CAMMESA) delayed,Medium,Medium,Early model validation; plant controller tested in factory
+Spot spread compresses as storage is built,High,Medium,Contract part of BESS output; test NPV against low-spread case
+PPA counterparty credit (GUMA),Low,High,Bank guarantee or letter of credit; diversify offtakers
