@@ -1,0 +1,6 @@
+item,size,musd
+"PV modules, trackers, DC BOS",160 MWp,76.8
+PV inverters,100 MWac,5.0
+BESS energy (DC block + BOS),77 MWh,11.539778043446566
+BESS power conversion,37 MW,1.4617052188365651
+Total,,94.80148326228313

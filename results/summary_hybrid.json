@@ -1,0 +1,144 @@
+{
+  "plena_dc": {
+    "coupling": "dc",
+    "priority": "plena",
+    "sizes": {
+      "pv": 160.0,
+      "inv": 100.0,
+      "pb": 36.542630470914126,
+      "eb": 76.9318536229771
+    },
+    "npv_musd": 70.06267290498705,
+    "capex_musd": 94.80148326228313,
+    "revenue_musd_year": 20.022795923428355,
+    "om_musd_year": 1.8600296652456627,
+    "export_gwh": 286.27968267952645,
+    "pv_available_gwh": 302.83365119999996,
+    "spilled_share": 0.044692232074787785,
+    "capture_price": 69.94137947904153,
+    "lcoe_usd_mwh": 42.979390649876045
+  },
+  "plena_ac": {
+    "coupling": "ac",
+    "priority": "plena",
+    "sizes": {
+      "pv": 154.98109230673856,
+      "inv": 100.0,
+      "pb": -0.0,
+      "eb": -0.0
+    },
+    "npv_musd": 68.55655913381206,
+    "capex_musd": 79.39092430723451,
+    "revenue_musd_year": 17.848899959132513,
+    "om_musd_year": 1.5498109230673855,
+    "export_gwh": 271.89372946500526,
+    "pv_available_gwh": 293.3343128138367,
+    "spilled_share": 0.07309265371364371,
+    "capture_price": 65.64660389282645,
+    "lcoe_usd_mwh": 37.86830988577273
+  },
+  "referencial_a_dc": {
+    "coupling": "dc",
+    "priority": "referencial_a",
+    "sizes": {
+      "pv": 136.0376121832434,
+      "inv": 85.02350761452712,
+      "pb": 40.2274969474603,
+      "eb": 84.68946725781116
+    },
+    "npv_musd": 53.254538862069175,
+    "capex_musd": 83.86174919525327,
+    "revenue_musd_year": 16.752463642290625,
+    "om_musd_year": 1.6466265211638356,
+    "export_gwh": 241.14530770033747,
+    "pv_available_gwh": 257.4797924873825,
+    "spilled_share": 0.05073419545710489,
+    "capture_price": 69.47041102333331,
+    "lcoe_usd_mwh": 45.14088979917018
+  },
+  "referencial_a_ac": {
+    "coupling": "ac",
+    "priority": "referencial_a",
+    "sizes": {
+      "pv": 130.73192331181312,
+      "inv": 87.36160775311912,
+      "pb": 12.755341036541529,
+      "eb": 26.853349550613743
+    },
+    "npv_musd": 52.20637468307766,
+    "capex_musd": 71.9127264721108,
+    "revenue_musd_year": 15.077147787239124,
+    "om_musd_year": 1.4031856910138223,
+    "export_gwh": 229.32845980657083,
+    "pv_available_gwh": 247.43766040571725,
+    "spilled_share": 0.06867063435352305,
+    "capture_price": 65.74477411114206,
+    "lcoe_usd_mwh": 40.66513218743269
+  },
+  "pv_only_plena": {
+    "coupling": "dc",
+    "priority": "plena",
+    "sizes": {
+      "pv": 154.98109230673856,
+      "inv": 100.0,
+      "pb": 0.0,
+      "eb": 0.0
+    },
+    "npv_musd": 68.55655913381206,
+    "capex_musd": 79.39092430723451,
+    "revenue_musd_year": 17.848899959132513,
+    "om_musd_year": 1.5498109230673855,
+    "export_gwh": 271.89372946500526,
+    "pv_available_gwh": 293.3343128138367,
+    "spilled_share": 0.07309265371364371,
+    "capture_price": 65.64660389282645,
+    "lcoe_usd_mwh": 37.86830988577273
+  },
+  "assumptions": {
+    "site": {
+      "name": "San Juan (Cuyo), single-axis tracker",
+      "poi_mw": 100.0,
+      "priority": "plena",
+      "ref_a_curtailment": 0.08,
+      "congestion_quantile": 0.55
+    },
+    "costs": {
+      "pv_usd_per_wp": 0.48,
+      "inverter_usd_per_wac": 0.05,
+      "bess_usd_per_kwh": 150.0,
+      "pcs_usd_per_kw": 60.0,
+      "dcdc_usd_per_kw": 40.0,
+      "pv_om_usd_per_kwp_year": 10.0,
+      "bess_om_share": 0.02,
+      "wacc": 0.1,
+      "life_years": 25,
+      "max_dc_ac": 1.6
+    },
+    "market": {
+      "ppa_usd_mwh": 60.0,
+      "ppa_share": 0.7,
+      "spot_share_of_cmg": 1.0,
+      "monthly_cmg_usd": {
+        "1": 65,
+        "2": 65,
+        "3": 65,
+        "4": 70,
+        "5": 80,
+        "6": 95,
+        "7": 95,
+        "8": 85,
+        "9": 70,
+        "10": 60,
+        "11": 60,
+        "12": 65
+      },
+      "elasticity": 3.0
+    },
+    "battery": {
+      "eta_charge": 0.95,
+      "eta_discharge": 0.95,
+      "min_hours": 1.0,
+      "max_hours": 6.0
+    }
+  }
+}
